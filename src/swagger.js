@@ -21,7 +21,7 @@ const options = {
         ]
     },
     // looks for configuration in specified directories
-    apis: ['./router/*.js'],
+    apis: ['./src/router/*.js'],
 }
 const swaggerSpec = swaggerJsdoc(options)
 
